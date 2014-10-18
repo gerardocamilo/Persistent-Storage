@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EA947519F2C3E200C07246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA947419F2C3E200C07246 /* AppDelegate.swift */; };
+		82EA947719F2C3E200C07246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA947619F2C3E200C07246 /* ViewController.swift */; };
+		82EA947A19F2C3E200C07246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EA947819F2C3E200C07246 /* Main.storyboard */; };
+		82EA947C19F2C3E200C07246 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EA947B19F2C3E200C07246 /* Images.xcassets */; };
+		82EA947F19F2C3E200C07246 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82EA947D19F2C3E200C07246 /* LaunchScreen.xib */; };
+		82EA948B19F2C3E200C07246 /* Persisten_StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA948A19F2C3E200C07246 /* Persisten_StorageTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82EA948519F2C3E200C07246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EA946719F2C3E200C07246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EA946E19F2C3E200C07246;
+			remoteInfo = "Persisten Storage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82EA946F19F2C3E200C07246 /* Persisten Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persisten Storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EA947319F2C3E200C07246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EA947419F2C3E200C07246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82EA947619F2C3E200C07246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82EA947919F2C3E200C07246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82EA947B19F2C3E200C07246 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82EA947E19F2C3E200C07246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82EA948419F2C3E200C07246 /* Persisten StorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persisten StorageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EA948919F2C3E200C07246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EA948A19F2C3E200C07246 /* Persisten_StorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persisten_StorageTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EA946C19F2C3E200C07246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EA948119F2C3E200C07246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EA946619F2C3E200C07246 = {
+			isa = PBXGroup;
+			children = (
+				82EA947119F2C3E200C07246 /* Persisten Storage */,
+				82EA948719F2C3E200C07246 /* Persisten StorageTests */,
+				82EA947019F2C3E200C07246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EA947019F2C3E200C07246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EA946F19F2C3E200C07246 /* Persisten Storage.app */,
+				82EA948419F2C3E200C07246 /* Persisten StorageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EA947119F2C3E200C07246 /* Persisten Storage */ = {
+			isa = PBXGroup;
+			children = (
+				82EA947419F2C3E200C07246 /* AppDelegate.swift */,
+				82EA947619F2C3E200C07246 /* ViewController.swift */,
+				82EA947819F2C3E200C07246 /* Main.storyboard */,
+				82EA947B19F2C3E200C07246 /* Images.xcassets */,
+				82EA947D19F2C3E200C07246 /* LaunchScreen.xib */,
+				82EA947219F2C3E200C07246 /* Supporting Files */,
+			);
+			path = "Persisten Storage";
+			sourceTree = "<group>";
+		};
+		82EA947219F2C3E200C07246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EA947319F2C3E200C07246 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82EA948719F2C3E200C07246 /* Persisten StorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				82EA948A19F2C3E200C07246 /* Persisten_StorageTests.swift */,
+				82EA948819F2C3E200C07246 /* Supporting Files */,
+			);
+			path = "Persisten StorageTests";
+			sourceTree = "<group>";
+		};
+		82EA948819F2C3E200C07246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EA948919F2C3E200C07246 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EA946E19F2C3E200C07246 /* Persisten Storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EA948E19F2C3E200C07246 /* Build configuration list for PBXNativeTarget "Persisten Storage" */;
+			buildPhases = (
+				82EA946B19F2C3E200C07246 /* Sources */,
+				82EA946C19F2C3E200C07246 /* Frameworks */,
+				82EA946D19F2C3E200C07246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persisten Storage";
+			productName = "Persisten Storage";
+			productReference = 82EA946F19F2C3E200C07246 /* Persisten Storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82EA948319F2C3E200C07246 /* Persisten StorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EA949119F2C3E200C07246 /* Build configuration list for PBXNativeTarget "Persisten StorageTests" */;
+			buildPhases = (
+				82EA948019F2C3E200C07246 /* Sources */,
+				82EA948119F2C3E200C07246 /* Frameworks */,
+				82EA948219F2C3E200C07246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EA948619F2C3E200C07246 /* PBXTargetDependency */,
+			);
+			name = "Persisten StorageTests";
+			productName = "Persisten StorageTests";
+			productReference = 82EA948419F2C3E200C07246 /* Persisten StorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EA946719F2C3E200C07246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "___GRCS___";
+				TargetAttributes = {
+					82EA946E19F2C3E200C07246 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					82EA948319F2C3E200C07246 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 82EA946E19F2C3E200C07246;
+					};
+				};
+			};
+			buildConfigurationList = 82EA946A19F2C3E200C07246 /* Build configuration list for PBXProject "Persisten Storage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EA946619F2C3E200C07246;
+			productRefGroup = 82EA947019F2C3E200C07246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EA946E19F2C3E200C07246 /* Persisten Storage */,
+				82EA948319F2C3E200C07246 /* Persisten StorageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EA946D19F2C3E200C07246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EA947A19F2C3E200C07246 /* Main.storyboard in Resources */,
+				82EA947F19F2C3E200C07246 /* LaunchScreen.xib in Resources */,
+				82EA947C19F2C3E200C07246 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EA948219F2C3E200C07246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EA946B19F2C3E200C07246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EA947719F2C3E200C07246 /* ViewController.swift in Sources */,
+				82EA947519F2C3E200C07246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EA948019F2C3E200C07246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EA948B19F2C3E200C07246 /* Persisten_StorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82EA948619F2C3E200C07246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EA946E19F2C3E200C07246 /* Persisten Storage */;
+			targetProxy = 82EA948519F2C3E200C07246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82EA947819F2C3E200C07246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EA947919F2C3E200C07246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82EA947D19F2C3E200C07246 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EA947E19F2C3E200C07246 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82EA948C19F2C3E200C07246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82EA948D19F2C3E200C07246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EA948F19F2C3E200C07246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Persisten Storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82EA949019F2C3E200C07246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Persisten Storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82EA949219F2C3E200C07246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Persisten StorageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persisten Storage.app/Persisten Storage";
+			};
+			name = Debug;
+		};
+		82EA949319F2C3E200C07246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Persisten StorageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persisten Storage.app/Persisten Storage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EA946A19F2C3E200C07246 /* Build configuration list for PBXProject "Persisten Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EA948C19F2C3E200C07246 /* Debug */,
+				82EA948D19F2C3E200C07246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EA948E19F2C3E200C07246 /* Build configuration list for PBXNativeTarget "Persisten Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EA948F19F2C3E200C07246 /* Debug */,
+				82EA949019F2C3E200C07246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82EA949119F2C3E200C07246 /* Build configuration list for PBXNativeTarget "Persisten StorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EA949219F2C3E200C07246 /* Debug */,
+				82EA949319F2C3E200C07246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EA946719F2C3E200C07246 /* Project object */;
+}
